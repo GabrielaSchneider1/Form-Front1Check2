@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Form Cadastro Gabriela Schneider</title>
+</head>
+
+<body>
+  <main>
+    <section>
+      <img src="https://hotelerechim.com.br/wp-content/uploads/2018/03/8325826110_9d8be9fec0_b-1.jpg" alt="Viaduto Otavio Rocha">
+      <h3>Cadastre-se Aqui!</h3>   
+    </section>
+
+    <form action="#" method="POST">
+
+      <fieldset>
+        <legend>Dados Pessoais: </legend>
+        <label for="nome">Nome: </label>
+        <input type="text" name="Nome" id="nome">
+
+        <div class="email">
+        <label for="email">Email: </label>
+        <input type="email" name="E-mail" id="email" required placeholder="Insira seu e-mail">
+        <input type="tel" name="Telefone" id="fone">
+        <label for="fone">Telefone </label> 
+        </div>
+        
+        <label for="endereco">Endereço: </label>
+        <textarea name="Endereco" id="endereco" cols="23" rows="3"></textarea>
+
+        <div class="idade">
+        <input type="date" name="DataNascimento" id="datanascimento">
+        <label for="datanascimento">Data de Nascimento </label>
+        <input type="radio" name="maioridade" id="maior">
+        <label for="maior">Maior de idade</label>
+        <input type="radio" name="maioridade" id="menor">
+        <label for="menor">Menor de idade</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+         <legend>Interesses na Cidade de Porto Alegre: </legend>
+         <div class="interesses">
+         <select name="Interesse" id="interesse">
+           <option value="">Selecione seu ponto de interesse na cidade</option>
+           <option value="cultural">Cultural</option>
+           <option value="historico">Histórico</option>
+           <option value="academico">Acadêmico</option>
+         </select>
+         <input type="checkbox" name="Turista" id="turista" checked>
+         <label for="turista">Turista</label>
+         <input type="checkbox" name="Residente" id="residente">
+         <label for="residente">Residente</label>
+         <input type="checkbox" name="Estudante" id="estudante">
+         <label for="estudante">Estudante</label>
+        </div>
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Cancelar</button>
+
+    </form>
+
+  </main>
+    
+</body>
+
+</html>

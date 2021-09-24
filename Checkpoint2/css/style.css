@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(239, 242, 245);
+}
+
+main{
+    text-align: center;
+}
+
+main img{
+    width: 250px;
+}
+
+label, select{
+    display: block;
+}
+
+input, textarea{
+    margin-bottom: 15px;
+}
+
+select{
+    margin: 0px auto 15px;
+}
+
+.interesses label{
+    display: inline-block;
+}
+
+.idade label{
+    display: inline-block;
+}
+
+.email label{
+    display: inline-block;
+}
+
